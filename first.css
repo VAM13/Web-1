@@ -4,7 +4,7 @@ h2{
     ;
 }
 h1{
-    color: #5FD068;
+    color: #09134B;
 }
 button{
     background-color: yellow;
@@ -13,4 +13,25 @@ button{
 }
 a{
     background-color: rgb(89, 151,0);
+}
+body{
+    background-color: lightgrey;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline ;
+    letter-spacing: 5px;
+    line-height: 20px;
+    /* overline, line-through
+    adding colors text-decoration: blue underline
+    adding subject text-decoration: underline wavy */
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+    /* this is used for para spacing */
 }
