@@ -1,4 +1,13 @@
 h2{
+    background-color: cyan;
     color: orangered
     ;
+}
+h1{
+    color: #5FD068;
+}
+button{
+    background-color: yellow;
+    color: magenta;
+    
 }
