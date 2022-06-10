@@ -27,6 +27,8 @@ h1{
     adding colors text-decoration: blue underline
     adding subject text-decoration: underline wavy */
     font-size: 50px; 
+    font-style: bold;
+    font-family: cursive;
 
 }
 a{
