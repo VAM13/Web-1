@@ -3,7 +3,7 @@
 } */
 body{
    
-    background-color: #998fc7;
+    background-color: #A0C1B9;
 }
 
 button{
@@ -19,3 +19,14 @@ h1,h2{
     /* This is id selector!!! */
     
 }
+span{
+    color: #706993;
+}
+.tag{
+    background-color: #331E38;
+    color: #F4E8C1;
+    font-size: 15px;
+    /* This is class selector */
+}
+/* id tag is used only for single change
+    class tag is used for multiple changes */
