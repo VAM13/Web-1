@@ -30,3 +30,14 @@ span{
 }
 /* id tag is used only for single change
     class tag is used for multiple changes */
+    /* " # " symbol is used for id selector
+        " . " symbol is used for class selector*/
+
+.post a{
+    color: #fb8500;
+    /* All the anchor tags in span changes to this perticular colour */
+}  
+footer a{
+    color: #ff006e;
+    /* All the anchor (a) tags in footer, nav, unordered list, lists changes to this color */
+}
