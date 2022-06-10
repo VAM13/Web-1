@@ -1,0 +1,21 @@
+/* *{
+    background-color: cyan;
+} */
+body{
+   
+    background-color: #998fc7;
+}
+
+button{
+    font-size: 30px;
+    background-color: #D4C2FC;
+}
+h1,h2{
+    color: #28262C;
+}
+#signup{
+    background-color: #14248A;
+    color: #F9F5FF;
+    /* This is id selector!!! */
+    
+}
