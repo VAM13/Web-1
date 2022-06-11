@@ -39,6 +39,7 @@ span{
  /* DESCENDANT SELECTOR */
 .post a{
     color: #fb8500;
+    text-decoration: none;
     /* All the anchor tags in span changes to this perticular colour */
 }  
 footer a{
@@ -89,4 +90,29 @@ input[type="search"]{
 
 a[href*=google]{
     color: magenta;
+}
+
+/* PSEUDO CLASSES */
+/* 1.Hover */
+.post button:hover{ 
+    /* only does the hover on class i.e .post */
+    /* this is for curser hover */
+    background-color: darkred;
+    color: lightskyblue;
+}
+
+.post a:hover{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* 2. Active */
+.post button:active {
+    background-color: lightsteelblue;
+    /* When you click and hold  then the color changes if we release 
+        then it returns normal color */
+}
+
+.post:nth-of-type(2n){
+    background-color: lightgreen;
 }
