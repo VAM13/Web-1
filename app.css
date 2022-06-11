@@ -60,5 +60,33 @@ h2 + button{
 }
 
 /* DIRECT DECENDANT or CHILD ( > )*/
+footer>a{
+    color: darkolivegreen;
+    /* This is to directing towards the sub divisions  */
+}
+
+/* ATTRIBUTE SELECTOR 
+
+This allows to select elements based upon some perticular attribute*/
+
+input[type="password"]{
+    color: red;
+}
+
+/* 
+section[class="post"]{
+    background-color: lightslategray;
+} */
+
+section.post{
+    background-color: lightgoldenrodyellow;
+}
 
 
+input[type="search"]{
+    color: blueviolet;
+}
+
+a[href*=google]{
+    color: magenta;
+}
