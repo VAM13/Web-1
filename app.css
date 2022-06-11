@@ -33,6 +33,10 @@ span{
     /* " # " symbol is used for id selector
         " . " symbol is used for class selector*/
 
+
+
+        
+ /* DESCENDANT SELECTOR */
 .post a{
     color: #fb8500;
     /* All the anchor tags in span changes to this perticular colour */
@@ -41,3 +45,20 @@ footer a{
     color: #ff006e;
     /* All the anchor (a) tags in footer, nav, unordered list, lists changes to this color */
 }
+
+/* 
+    ADJACENT SELECTOR   ( + ) 
+    tag which is immediatly come after one tag will change 
+input + button{
+    background-color: pink;
+        here button which is immediatly after input is changed 
+
+} */ 
+
+h2 + button{
+    background-color: orangered;
+}
+
+/* DIRECT DECENDANT or CHILD ( > )*/
+
+
