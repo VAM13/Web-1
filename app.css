@@ -114,5 +114,5 @@ a[href*=google]{
 }
 
 .post:nth-of-type(2n){
-    background-color: lightgreen;
+    background-color: lightsalmon;
 }
